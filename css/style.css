@@ -188,7 +188,8 @@ img{
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 295px;
+    width: 70%;
+    top: 70%;
 }
 .home_img img{
     border-radius: 50%;
