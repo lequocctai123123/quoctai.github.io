@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--file-->
+        <link rel="stylesheet" href="./css/style.css">
+        
+        <!--box icon-->
+        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Le quoc tai</title>
+    </head>
+
+    <body>
+        <!--header-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="" class="nav_logo">Le Quoc Tai</a>
+                </div>
+                
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list">
+                        <li class="nav_item"><a href="" class="nav_link active">Trang chủ</a></li>
+                        <li class="nav_item"><a href="#work" class="nav_link">Hình ảnh</a></li>
+                        <li class="nav_item"><a href="#contact" class="nav_link">Đánh giá</a></li>
+                </div>
+
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="bx-menu bx"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--Home-->
+            <section class="home bd-grid" id="home">
+                <div class="home_data">
+                    <h1 class="home_title">Chào, <br> Tôi là <span class="home_title-color">Quốc Tài</span><br>Lập trình viên </h1>
+                    <a href="./img/video.mp4" download class="button">DOWNLOAD VIDEO</a>
+                </div>
+
+                <div class="home_social">
+                    <a href="https://www.facebook.com/quoc.tai.2410/" class="home_social-icon"><i class='bx bxl-facebook-square' ></i></a>
+                    <a href="https://www.instagram.com/lequoctai2410/" class="home_social-icon"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="" class="home_social-icon"><i class='bx bxs-bank' ></i></a>
+                </div>
+
+                <div class="home_img">
+                    <img src="./img/avt.jpg" alt="">
+                </div>
+            </section>
+
+            <!--work-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Hình ảnh</h2>
+               
+                <div class="work_container bd-grid">
+                    <div class="work_img" >
+                        <img src="./img/bg1.jpg" alt="">
+                    </div>
+                    <div class="work_img" >
+                        <img src="./img/bg2.jpg" alt="">
+                    </div>
+                    <div class="work_img">
+                        <img src="./img/background.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--contact-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Đánh giá</h2>
+
+                <div class="contact_container bd-grid">
+                    <form action="https://formspree.io/f/moqykwew" method="POST" class="contact_form">
+                        <label><input name="tên" type="text" placeholder="Tên" class="contact_input" required></label>
+                        <label><input name="maiL" type="email" placeholder="Email" class="contact_input" required></label>
+                        <label><textarea name="danhgia" id="" cols="0" rows="10" class="contact_input" required></textarea><label></label>
+                        <button type="submit" class="contact_button button" >Gửi</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p class="footer_title">Le Quoc Tai</p>
+
+            <p>&#169;Tai24102002</p>
+        </footer>
+
+        <!--script-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
+
